@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
+    "@vueuse/nuxt": "^10.9.0",
     "canvas": "^2.11.2",
     "konva": "^9.3.5",
     "nuxt": "^3.10.3",
@@ -20,7 +21,9 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@element-plus/nuxt": "^1.0.7",
     "@nuxt/eslint-config": "^0.2.0",
+    "element-plus": "^2.6.0",
     "eslint": "^8.57.0",
     "sass": "^1.71.1"
   }

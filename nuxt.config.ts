@@ -2,8 +2,10 @@
 // @ts-ignore
 export default defineNuxtConfig({
   ssr: true,
-  devtools: { enabled: true },
-  modules: ["@pinia/nuxt"],
+  devtools: { enabled: false },
+  modules: ["@pinia/nuxt", "@vueuse/nuxt", "@element-plus/nuxt"],
+  // @ts-ignore
+  elementPlus: {},
   alias: {
     "@": "/<srcDir>",
   },
